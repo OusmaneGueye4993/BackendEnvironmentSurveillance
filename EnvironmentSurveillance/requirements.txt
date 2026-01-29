@@ -1,0 +1,10 @@
+Django>=4.0
+#pillow
+python-decouple
+#whitenoise
+#gunicorn
+psycopg2-binary  # Pour PostgreSQL
+django-debug-toolbar
+django-extensions
+#django-allauth  # Si vous l'utilisez
+django-rest-framework  # Si vous l'utilisez

@@ -1,0 +1,53 @@
+# Environnement
+.env
+.env.local
+.env.*.local
+
+# Fichiers de variables d'environnement
+*.env
+.env.production
+.env.development
+
+# Django
+*.log
+*.pot
+*.pyc   
+__pycache__/
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Environnements virtuels
+venv/
+env/
+.venv/
+venv.bak/
+env.bak/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+ehthumbs.db
+Icon?
+.BIN/
+
+# Backup files
+*.bak
+*.backup
+
+# Temp files
+*.tmp
+*.temp
