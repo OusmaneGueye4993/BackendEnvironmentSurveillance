@@ -163,3 +163,16 @@ CORS_ALLOWED_ORIGINS = [
 
 # Optionnel : Si vous voulez être moins strict durant vos tests
 CORS_ALLOW_ALL_ORIGINS = True
+
+
+
+
+
+# MQTT
+MQTT_HOST = "localhost"
+MQTT_PORT = 1883
+MQTT_TOPIC = "drone/telemetry"
+MQTT_USERNAME = None
+MQTT_PASSWORD = None
+MQTT_CLIENT_ID = "django-telemetry-consumer"
+MQTT_QOS = 0
